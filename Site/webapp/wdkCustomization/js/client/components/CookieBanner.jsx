@@ -12,7 +12,7 @@ const UserAgreedStore = {
 };
 
 
-const privacyPolicyLink = '/a/app/static-content/privacyPolicy.html';
+const privacyPolicyLink = '@webappCtx@/app/privacy-policy';
 
 
 // Styles

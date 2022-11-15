@@ -1,5 +1,6 @@
 @import './eupathdb-Palette.scss';
 
+
 a.eupathdb-BigButton, input[type="submit"], .filter-button input[type=submit], button.btn, a.btn, a:link.btn {
 /*  @include transition; */
   padding: 8px 12px;
@@ -41,10 +42,24 @@ a.eupathdb-BigButton, input[type="submit"], .filter-button input[type=submit], b
   }
   &.btn-info {
     &:hover {
-      background: $blue;
+      background: #3B0D11;
       color: $white;
     }
+    
   }
+
+  &.btn-icon {
+    &:hover {
+      background: #3B0D11;
+      color: $white;
+    }
+
+    .fa {
+      margin-right: 0px;
+      font-size: 1.2em; 
+    }   
+  }
+  
   &.btn-success {
     &:hover {
       background: $green;
