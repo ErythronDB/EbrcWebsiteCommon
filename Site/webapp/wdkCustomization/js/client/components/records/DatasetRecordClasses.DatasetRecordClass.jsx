@@ -108,6 +108,14 @@ export function RecordHeading(props) {
   );
 }
 
+export function RecordMainSection(props) {
+  if (props.record.id[0].value != 'study003') {
+    return <props.DefaultComponent {...props} />
+  }
+  else {
+    return null;
+  }
+}
 
 export function RecordTable(props) {
   if (props.record.id[0].value != 'study003') {
