@@ -31,8 +31,8 @@ const infoIcon = (
 // a unique id for the announcement, and a function that takes props and returns a React Element.
 // Use props as an opportunity to determine if the message should be displayed for the given context.
 const siteAnnouncements = [
-  {
-    id: 'beta-genomics',
+ /* {
+    id: 'beta',
     renderDisplay: props => {
       // We want this on all genomic home pages running this code
       return (
@@ -44,7 +44,7 @@ const siteAnnouncements = [
        
       );
     }
-  }
+  }*/
 ];
 
 const fetchAnnouncementsData = async wdkService => {
