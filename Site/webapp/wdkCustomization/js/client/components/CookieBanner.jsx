@@ -12,7 +12,7 @@ const UserAgreedStore = {
 };
 
 
-const privacyPolicyLink = '@webappCtx@/app/privacy-policy';
+const privacyPolicyLink = '/ErythronDB/app/privacy-policy';
 
 
 // Styles

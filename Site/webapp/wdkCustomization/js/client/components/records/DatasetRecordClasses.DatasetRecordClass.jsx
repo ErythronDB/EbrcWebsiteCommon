@@ -76,7 +76,7 @@ export function RecordHeading(props) {
 
         {primary_publication ? (
           <div className="erythrondb-RecordOverviewItem mt-4">
-            <strong>Primary publication: </strong>
+            <strong>Publications: </strong>
             <span dangerouslySetInnerHTML={{ __html: primary_publication }} />
           </div>
         ) : null}
