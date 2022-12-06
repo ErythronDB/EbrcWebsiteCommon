@@ -164,5 +164,5 @@ const publicationToLink = ({ pubmed_link, dataset_id }: Record<string, Attribute
 const RecordError = (props: { message: string }) =>
   <span className={cx('RecordError')}>
     ERROR: {props.message}
-    Please <Link to="/contact-us" target="_blank" >contact us</Link> to report.
+    Please contact us to report.
   </span>;

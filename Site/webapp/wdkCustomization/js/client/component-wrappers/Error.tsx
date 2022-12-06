@@ -36,7 +36,7 @@ export function Error(DefaultComponent: React.ComponentType<Props>) {
           props.children || (<>
             <div style={style}>
               <p>Try <a href="" title="Reload the current page.">reloading the page</a>. This frequently resolves the problem.</p>
-              <p>If the problem persists, {contactUsLink}.</p>
+              <p>If the problem persists, please contact us; link at bottom of page.</p>
             </div>
             <div>{props.message}</div>
           </>)
